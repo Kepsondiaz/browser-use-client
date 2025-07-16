@@ -1,0 +1,30 @@
+{
+    "name": "kepson_diaz/browser-use-client",
+    "description": "implementation of  browser-use api",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "KepsonDiaz\\BrowserUseClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kepsondiaz",
+            "email": "kherabadiaby328@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^11.0",
+        "laravel/framework": "^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0",
+        "pestphp/pest": "^3.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
